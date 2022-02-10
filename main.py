@@ -66,10 +66,10 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🧚 Qrupa əlavə edin!", url="https://t.me/wordsazebot?startgroup=a")
-        sohbet = InlineKeyboardButton(text="💬 Söhbət Qrupumuz", url="https://t.me/grand_villa")
-        oyun = InlineKeyboardButton(text="👾 Oyun Qrupumuz", url="https://t.me/grand_villa")
-        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/aykhan_s")
+        addme = InlineKeyboardButton(text="🧚 Qrupa əlavə edin!", url="https://t.me/richsozoyunubot?startgroup=a")
+        sohbet = InlineKeyboardButton(text="💬 Söhbət Qrupumuz", url="https://t.me/oldmafiagroup")
+        oyun = InlineKeyboardButton(text="👾 Oyun Qrupumuz", url="https://t.me/blackmafiagroup")
+        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/muellime")
 
         keyboard = [[addme],[sohbet],[oyun],[admin]]
         reply_markup = InlineKeyboardMarkup(keyboard)
