@@ -2,7 +2,7 @@
 import random
 from datetime import datetime, timedelta
 
-import confing
+import config
 import time
 
 
