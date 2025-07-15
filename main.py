@@ -7,7 +7,7 @@ from telegram.ext import CallbackContext, CommandHandler
 from telegram import ParseMode, ReplyKeyboardMarkup, Update, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, ParseMode
 
 from game import Game
-import confing
+import config
 
 rating_dict = {}
 
